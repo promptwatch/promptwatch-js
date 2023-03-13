@@ -1,5 +1,4 @@
 export interface PromptWatchConfig {
-  functionName: string
   startDate: Date
   endDate: Date
   prompt: string
