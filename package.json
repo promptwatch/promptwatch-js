@@ -1,0 +1,20 @@
+{
+  "name": "promptwatch",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "prettier": {
+    "semi": false,
+    "endOfLine": "lf",
+    "arrowParens": "always",
+    "quoteProps": "consistent"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4",
+    "typescript": "4.9.5"
+  }
+}
