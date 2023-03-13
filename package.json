@@ -7,6 +7,9 @@
     "build": "tsc",
     "clean": "rm -rf dist"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "prettier": {
     "semi": false,
     "endOfLine": "lf",
